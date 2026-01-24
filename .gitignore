@@ -1,0 +1,17 @@
+# Compiled Binaries
+*.exe
+*.o
+*.out
+solution
+solution.exe
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Debugger files
+*.dSYM/
