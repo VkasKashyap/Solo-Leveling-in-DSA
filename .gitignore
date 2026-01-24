@@ -4,6 +4,7 @@
 *.out
 solution
 solution.exe
+output/
 
 # IDE - VS Code
 .vscode/
