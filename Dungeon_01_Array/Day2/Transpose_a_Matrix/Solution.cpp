@@ -6,11 +6,9 @@ using namespace std;
 
 class Solution {
 public:
-    // Function to transpose a square matrix in-place
     vector<vector<int>> transpose(vector<vector<int>>& mat) {
         int n = mat.size();
         for(int i = 0; i < n; i++) {
-            // Iterate only the upper triangle (j > i) to avoid double-swapping
             for(int j = i + 1; j < n; j++) {
                 swap(mat[i][j], mat[j][i]);
             }
