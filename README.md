@@ -1,48 +1,42 @@
-# ⚔️ Solo Leveling in DSA: The Array Dungeon
+<div align="center">
 
-**"I don't just solve problems. I collect them."**
+# ⚔️ Solo Leveling in DSA
+### *Turn your coding skills from E-Rank to S-Rank.*
 
-This repository documents my journey mastering Data Structures & Algorithms.
-**Current Status:** `Rank D` (Array Specialist)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
+![Focus](https://img.shields.io/badge/Focus-DSA-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Grinding_Daily-success?style=for-the-badge)
+![Target](https://img.shields.io/badge/Target-5_Questions%2FDay-red?style=for-the-badge)
+
+<br>
+
+> *"I don't fear the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times."* — **Bruce Lee**
+
+</div>
 
 ---
 
-## 📊 Progress Log
+## 📜 The Mission
+I am on a journey to master Data Structures & Algorithms. My strategy is simple but brutal: **Consistency over Intensity.**
+Instead of burning out, I solve **5 high-quality problems every single day**.
 
-| Rank | Dungeon | Quests | Status |
-|:---:|:---|:---:|:---:|
-| 🟢 | **Day 1: Array Basics & Warmup** | 25 / 25 | ✅ **CLEARED** |
-| 🟡 | **Day 2: Array Manipulation (Hard)** | 0 / ? | ⏳ Pending |
+* **⚡ Daily Quest:** 5 Questions / Day
+* **🛡️ Weapon of Choice:** C++
+* **🏰 Battleground:** LeetCode, GeeksforGeeks, CodeStudio
 
 ---
 
-## 🟢 Day 1: The Awakening (Array Basics)
-**Focus:** Linear Scans, Hashing, Two Pointers, Sliding Window.
+## 🗺️ Dungeon Map (Repository Structure)
+This repository is organized by **Topic** (not by day) to serve as a perfect revision library.
 
-| No. | Quest (Problem) | Pattern | Complexity | Solution |
-|:---:|:---|:---|:---:|:---:|
-| 01 | **Min & Max Element** | Linear Scan | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Find_Minimum_and_Maximum_in_an_Array/Solution.cpp) |
-| 02 | **Value Equal to Index** | Linear Scan | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Value_Equal_to_Index_vale/Solution.cpp) |
-| 03 | **Check if Arrays Equal** | Hashing / Sort | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Check_If_Two_Arrays_are_Equal/Solution.cpp) |
-| 04 | **Find the Fine** | Logic / Flow | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Find_the_Fine/Solution.cpp) |
-| 05 | **Missing Number** | XOR / Sum | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Missing_Number_in_an_Array/Solution.cpp) |
-| 06 | **Find Duplicates** | Hashing | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Find_dupliactes_in_an_Array/Solution.cpp) |
-| 07 | **First Repeating Element** | Hashing | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/First_Repeating_Element/Solution.cpp) |
-| 08 | **Non-Repeating Element** | Hashing | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Non_Repeating_Element/Solution.cpp) |
-| 09 | **Contains Duplicate** | HashSet | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Contain_Duplicates/Solution.cpp) |
-| 10 | **Second Largest** | One-Pass Scan | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Second_Largest_Element_in_an_Array/Solution.cpp) |
-| 11 | **Cyclic Rotate by One** | Pointers | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Cyclically_Rotate_an_Array_by_one/Solution.cpp) |
-| 12 | **Leaders in Array** | Right Scan | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Leaders_in_an_Array/Solution.cpp) |
-| 13 | **Segregate 0s & 1s** | Two Pointers | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Segregate_0s_and_1s/Solution.cpp) |
-| 14 | **Move Zeroes** | Snowball (2 Ptr) | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Move_Zeroes/Solution.cpp) |
-| 15 | **Merge Sorted Arrays** | Two Pointers | $O(N+M)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Merge_two_Sorted_Array/Solution.cpp) |
-| 16 | **Minimize Sum of Product** | Greedy Sort | $O(N \log N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Minimize_the_Sum_of_The_Product/Solution.cpp) |
-| 17 | **Two Sum** | Hashing | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/TwoSum/Solution.cpp) |
-| 18 | **Subarray with Sum** | Sliding Window | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Subarray_with_given_Sum/Solution.cpp) |
-| 19 | **Subarray Sum Index** | Sliding Window | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Index_of_Subarray_Sum_equal_to_Target/Solution.cpp) |
-| 20 | **Sorted Squares** | Inward Pointers | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Squares_of_a_Sorted_Array/Solution.cpp) |
-| 21 | **Stock Buy & Sell** | Greedy (Min Price) | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Best_time_to_Buy_and_Sell_Stock/Solution.cpp) |
-| 22 | **Sort Colors (DNF)** | 3 Pointers | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Sort_Colors/Solution.cpp) |
-| 23 | **Majority Element** | Moore's Voting | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Majority_Element/Solution.cpp) |
-| 24 | **Max Subarray Sum** | Kadane's Algo | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Maximum_Subarray_Sum/Solution.cpp) |
-| 25 | **Product Except Self** | Prefix/Suffix | $O(N)$ | [Code](./Dungeon_01_Array/[Day%201]_Array/Product_of_Array_Except_self/Solution.cpp) |
+```text
+📂 Solo Leveling in DSA
+├── 📁 01_Arrays              // The Foundation
+├── 📁 02_Matrix              // 2D Grid Challenges
+├── 📁 03_Strings             // Pattern Matching & Parsing
+├── 📁 04_Searching_Sorting   // Binary Search & Sorts
+├── 📁 05_LinkedList          // Pointers & Chains
+├── 📁 06_Recursion           // Backtracking & Base Cases
+├── 📁 07_Trees               // BST & Binary Trees
+├── 📁 08_Graphs              // BFS, DFS, Dijkstra
+└── 📝 README.md
